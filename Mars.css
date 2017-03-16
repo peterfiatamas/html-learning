@@ -1,0 +1,54 @@
+h1{
+    background-color: red;
+    color: cornsilk;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+a{
+    background-color: green;
+    color: yellow;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 10px;
+    display: inline;
+}
+
+.rovid{
+    width: 40px;
+    height: 40px;
+    overflow: auto;
+}
+.Tablazat{
+    background-color: orange;
+    padding: 10px;
+    border: 2px;
+    margin: 10px;
+    text-align: center;
+}
+ul{
+    background-color: gray;
+    display: auto;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 10px;
+}
+ol{
+    background-color: gray;
+    display: auto;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 10px;
+}
+i{
+    background-color: graytext;
+    text-align: right;
+}
+body{
+    background-color: buttonface;
+}
+div{
+    text-align: center;
+}
