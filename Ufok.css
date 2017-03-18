@@ -1,0 +1,25 @@
+h1{
+   background-color: blue;
+   padding: 20px;
+   border: 3px double black;
+   margin: 10px;
+   display: block;
+   text-align: center;
+}
+body{
+    background-color: #309BD9;
+}
+div{
+   text-align: center;
+}
+#vid2{
+    text-align: center;
+}
+h2{
+    background-color: red;
+    padding: 20px;
+    border: 3px double black;
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
