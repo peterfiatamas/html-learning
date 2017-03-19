@@ -1,23 +1,27 @@
 <!DOCTYPE html>
  <html>
    <head>
+     <link href="Urlap.css" type="text/css" rel="stylesheet" />
     <meta charset="utf-8" />
-    <title>Űrlap</title>
+    <title>Urlap</title>
    </head>
   <body>
-    <form>
-     <p><label for="nev">Név :</label></p>
-     <p><input type="text" name="nev" /></p>
+    <form id="ur">
+      <label for="nev">Felhasználónév:</label><br />
+      <input type="text" name="nev"><br />
 
-     <p><label for="password">Password :</label></p>
-     <p><input type="password" name="password" /></p>
+      <label for="password">jelszó:</label><br />
+      <input type="password" name="password"><br />
 
-     <p><label for="maradok">Bejelentkezve maradok</label></p>
-     <p><input type="checkbox" name="maradok" /></p>
+      <label for="checkbox">Nem:</label><br />
+      <input type="checkbox" name="checkbox">Nő:<br />
+      <input type="checkbox" name="checkbox">Férfi:<br />
 
-     <label form="radio">Neme :</label><br />
-     <input type="radio" name="neme" value="férfi" />Férfi <br />
-     <input type="radio" name="neme" value="nő" />Nő <br />
-   </form>
+      <label for="radio">Bejelentkezve maradok</label><br />
+      <input type="radio" name="radio"><br />
+
+      <input value="Törlés" type="reset" name="rest"><br />
+      <input value="Küldés" type="submit" name="submit"><br />
+    </form>
   </body>
  </html>
