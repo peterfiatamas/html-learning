@@ -1,0 +1,23 @@
+#test1{
+  background-color: white;
+}
+
+#test2{
+    width: 50%;
+    float: right;
+    
+}
+
+.table{
+    background-color: orange;
+    text-align: center;
+}
+
+#kep{
+    float: left;
+    width: 50%;
+}    
+
+body{
+    background-color: gray;
+}

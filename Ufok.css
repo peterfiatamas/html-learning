@@ -9,11 +9,9 @@ h1{
 body{
     background-color: #309BD9;
 }
-div{
-   text-align: center;
-}
 #vid2{
     text-align: center;
+    clear: left;
 }
 h2{
     background-color: red;
@@ -22,4 +20,8 @@ h2{
     margin: 10px;
     display: block;
     text-align: center;
+}
+.ufo{
+    float: left; 
+    margin-right:10px; 
 }
